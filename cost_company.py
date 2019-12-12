@@ -15,7 +15,7 @@ yellowFill = PatternFill(start_color='FFFFFF00', end_color='FFFFFF00', fill_type
 blueFill = PatternFill(start_color='FF00FFFF', end_color='FF00FFFF', fill_type='solid')
 greenFill = PatternFill(start_color='FF00FF00', end_color='FF00FF00', fill_type='solid')
 greyFill = PatternFill(start_color='FFC0C0C0', end_color='FFC0C0C0', fill_type='solid')
-
+test = np.zeros(5)
 sheet1 = book.active
 sheet1.cell(row=1, column=1).value = "Entreprise"
 sheet1.column_dimensions['A'].width = 31.77
